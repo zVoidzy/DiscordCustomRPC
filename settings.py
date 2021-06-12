@@ -15,9 +15,9 @@
 
 applicationID = "" # Can be found on the Discord Developer Portal 
 
-details = ""
+details = "" # Necessary
 
-state = ""
+state = "" # Necessary
 
 large_imgage = "" # Has to be uploaded on the Discord Developer Portal
 

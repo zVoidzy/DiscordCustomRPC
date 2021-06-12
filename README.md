@@ -7,7 +7,6 @@ Written By [zVoidzy](https://github.com/zVoidzy)
 # Installation
 
 Install [pypresence](https://github.com/qwertyquerty/pypresence) with **`pip install pypresence`**
-
 ----------
 # Informations
 
@@ -15,6 +14,8 @@ Errors are logged in the **`errors.txt`** file
 
 Put your settings in the **`settings.py`** file
 
-Stop the Rich Presence process using the **`StopRPC.bat`** file
+Stop the Rich Presence process using the **`StopRPC.bat`** file.
+
+If Windows gives a security error when opening the **`StopRPC.bat`** file, please click `More informations`, then `Run anyways`. It's a false-positive.
 
 
