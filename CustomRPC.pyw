@@ -1,5 +1,6 @@
 """
-
+Dev by: Voidzy#0283
+GitHub: https://github.com/zVoidzy
 """
 
 # Importing libraries and setttings and verifying if pypresence is installed
