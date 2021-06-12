@@ -7,6 +7,7 @@ Written By [zVoidzy](https://github.com/zVoidzy)
 # Installation
 
 Install [pypresence](https://github.com/qwertyquerty/pypresence) with **`pip install pypresence`**
+
 ----------
 # Informations
 
