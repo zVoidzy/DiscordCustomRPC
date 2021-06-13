@@ -1,6 +1,7 @@
 """
 Dev by: Voidzy#0283
 GitHub: https://github.com/zVoidzy
+Language: Python 3.9.5
 """
 
 # Importing libraries and setttings and verifying if pypresence is installed
@@ -19,7 +20,7 @@ except(ImportError):
     file.write("Also make sure the correct Python interpeter is selected.\n")
     exit()
 
-from settings import applicationID, details, state, large_imgage, large_image_text
+from settings import applicationID, details, state, large_image, large_image_text
 from time import sleep
 
 # Logging on your application to start RPC
@@ -37,7 +38,7 @@ except:
 
 # Updating RPC with the info in the settings file
 try:
-    rpc.update(details=details, state=state, large_image=large_imgage, large_text=large_image_text)
+    rpc.update(details=details, state=state, large_image=large_image, large_text=large_image_text)
 except:
     file = open(current_path+"/"+'errors.txt', 'w')
 

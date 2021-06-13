@@ -19,6 +19,6 @@ details = "" # Necessary
 
 state = "" # Necessary
 
-large_imgage = "" # Has to be uploaded on the Discord Developer Portal
+large_image = "" # Has to be uploaded on the Discord Developer Portal. Wait a few minutes after uploading
 
 large_image_text = "" # This is necessary to get "Large Image" working
