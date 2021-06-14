@@ -13,7 +13,7 @@ Install [pypresence](https://github.com/qwertyquerty/pypresence) with **`pip ins
 
 Errors are logged in the **`errors.txt`** file
 
-Put your settings in the **`settings.py`** file
+Put your settings by editing the **`settings.py`** file
 
 Stop the Rich Presence process using the **`StopRPC.bat`** file.
 
