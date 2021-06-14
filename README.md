@@ -17,4 +17,4 @@ Put your settings by editing the **`settings.py`** file
 
 Stop the Rich Presence process using the **`StopRPC.bat`** file.
 
-If Windows gives a security error when opening the **`StopRPC.bat`** file, please click `More informations`, then `Run anyways`. It's a false-positive.
+If Windows gives a security error when opening the **`StopRPC.bat`** file, please click `More informations`, then `Run anyways`. **It's a false-positive.**
