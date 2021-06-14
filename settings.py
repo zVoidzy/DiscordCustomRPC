@@ -1,4 +1,8 @@
 """
+Dev by: Voidzy#0283
+GitHub: https://github.com/zVoidzy
+Language: Python 3.9.5
+
  ________  _______  _________  _________  ___  ________   ________  ________      
 |\   ____\|\  ___ \|\___   ___\\___   ___\\  \|\   ___  \|\   ____\|\   ____\     
 \ \  \___|\ \   __/\|___ \  \_\|___ \  \_\ \  \ \  \\ \  \ \  \___|\ \  \___|_    
@@ -19,6 +23,6 @@ details = "" # Necessary
 
 state = "" # Necessary
 
-large_image = "" # Has to be uploaded on the Discord Developer Portal. Wait a few minutes after uploading
+large_image = "" # Has to be uploaded on the Discord Developer Portal
 
 large_image_text = "" # This is necessary to get "Large Image" working
