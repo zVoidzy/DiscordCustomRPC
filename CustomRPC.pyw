@@ -37,14 +37,24 @@ except:
     exit()
 
 # Updating RPC with the info in the settings file
-try:
-    rpc.update(details=details, state=state, large_image=large_image, large_text=large_image_text)
-except:
-    file = open(current_path+"/"+'errors.txt', 'w')
+if large_image == "":
+    try:
+        rpc.update(details=details, state=state)
+    except:
+        file = open(current_path+"/"+'errors.txt', 'w')
 
-    file.write("ERROR: \n")
-    file.write("Some informations in the settings.py file are incorrect!")
-    exit()
+        file.write("ERROR: \n")
+        file.write("Some informations in the settings.py file are incorrect!")
+        exit()
+else:
+    try:
+        rpc.update(details=details, state=state, large_image=large_image, large_text=large_image_text)
+    except:
+        file = open(current_path+"/"+'errors.txt', 'w')
+
+        file.write("ERROR: \n")
+        file.write("Some informations in the settings.py file are incorrect!")
+        exit()
 
 # Keep alive
 while True:
